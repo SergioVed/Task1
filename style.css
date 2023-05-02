@@ -1,0 +1,30 @@
+table{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+.h1{
+    height: 100px;
+    background-color: #777d6a;
+    text-align: center;
+}
+.firstTr_td{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 47px;
+    padding-left: 25px;
+}
+.firstTr_sec_td{
+    width: 80%;
+}
+.firstTr_sec_td h2{
+    text-align: center;
+}
+.Last_td{
+    text-align: center;
+    height: 20px;
+    border-top: 1px solid black;
+}

@@ -1,5 +1,10 @@
-.table{
+body{
     height: 100%;
+}
+.table{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .Table_h1{
     display: flex;
@@ -9,14 +14,15 @@
 .Table_main_div{
     display: flex;
     justify-content: center;
+    flex-grow: 1;
 }
 .Table_first_div{
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #999f8e;
+    padding-top: 20px;
 }
 .Table_second_div{
     width: 70%;
